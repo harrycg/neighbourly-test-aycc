@@ -1,0 +1,291 @@
+.welcome-message {
+  color: #5b5c60;
+  font-weight: bold;
+  display: inline-block;
+}
+
+
+.faq-intro {
+    font-size: 36px;
+    font-size: 2vw;
+}
+
+.faq-qa p {
+    font-size: 36px;
+    font-size: 2vw;
+}
+
+.question {
+  font-weight:600;
+}
+
+.welcome-container {
+    font-size: 24px;
+    font-size: 2vw;
+}
+
+
+.flash.notice {
+  margin: 20px auto;
+  width: 500px;
+  text-align: center;
+  background-color: rgba(226,176,176,0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.grey {
+  color: #555;
+}
+
+select:focus,
+#address_search {
+  font-size: 36px;
+}
+
+.nav-top-right {
+  float: right;
+  margin-top: 31px;
+  margin-right: 10px;
+}
+
+.nav-top-right .download.disabled {
+  visibility: hidden;
+}
+
+.download-type .title {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.download-type .claim-form {
+  margin-left: 2%;
+  display: inline-block;
+}
+
+.download-type .claim-form select {
+  display: none;
+  visibility: none;
+}
+
+.download-type .claim {
+  margin-left: 2%;
+  display: inline-block;
+}
+
+.download-type .details {
+  display: inline-block;
+}
+
+.claimable .claim {
+  margin-left: 2%;
+  color: #FD4A00;
+}
+
+.select-electorate a {
+  font-size: 2rem;
+  float: left;
+  clear: both;
+  margin-bottom: 5px;
+}
+
+.logo-link {
+  float: left;
+}
+
+.header {
+  overflow: hidden;
+}
+
+.electorates {
+  float: left;
+}
+
+.electorate-picker {
+  display: inline;
+  margin-left: 45px;
+  float: left;
+  margin-top: 31px;
+}
+
+.electorate-picker form {
+  display: inline;
+}
+
+.electorate-picker select {
+  min-width: 175px;
+}
+
+.main {
+  background-image: url('/images/home-background.jpg');
+  background-size: 100%;
+}
+
+.home-logo {
+  margin: 15px 20px;
+  width: 120px;
+  height: auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.errors {
+  width: 50%;
+  margin-left: 25%;
+  background: rgba(255,255,255,0.6);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  text-align: center;
+  color: #B50000;
+}
+
+.login .login-box {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 8px;
+  width: 50%;
+  border-color: #A9A9A9;
+  margin-left: 25%;
+  height: 3.6em;
+}
+
+.login .spacer {
+	height: 13em;
+}
+
+.login #login-input {
+	margin: 0.5em;
+	width: 72%;
+}
+
+#map {
+	height: 50em;
+	width: 100%;
+  z-index: 1;
+}
+
+#dialog {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.ui-dialog-title {
+  font-size: 36px;
+}
+
+.ui-dialog-titlebar-close {
+  height: 50px !important;
+  width: 50px !important;
+  top: 30% !important;
+}
+
+.select-electorate .spacer {
+	height: 16em;
+}
+
+.select-electorate .form {
+  height: 10em;
+  margin-left: 25%;
+  width: 50%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 8px;
+  border-color: #A9A9A9;
+}
+
+.select-electorate .form h2 {
+  padding-top: 0.5em;
+  border-bottom: 1px solid #DCDCDC;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.select-electorate .form select {
+  width: 73%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#load {
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("/images/loading.svg") no-repeat center center rgba(0,0,0,0.25);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.map-blocker .text {
+  margin: 12% auto;
+  font-size: 3em;
+  text-align: center;
+}
+
+.map-blocker .text .no-data {
+  display: none;
+}
+
+.map-blocker {
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background: rgba(0,0,0,0.6);
+    color: #FD4A00;
+}
+
+.instruct {
+    padding: 6px 8px;
+    font: 32px/36px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.instruct .text {
+  padding: 0 10px;
+}
+
+.instruct .hover-slug {
+  font-size: large;
+}
+
+.popuptxt {
+  font-size: large;
+  text-align: center;
+}
+
+.popupbutton {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
+
+.legend {
+    padding: 6px 8px;
+    line-height: 20px;
+    color: #555;
+    width: 120%;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.legend i {
+    width: 30px;
+    height: 18px;
+    float: left;
+    margin-right: 0.7em;
+    margin-left: 0.7em;
+    opacity: 1;
+}

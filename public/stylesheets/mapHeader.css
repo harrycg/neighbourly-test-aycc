@@ -1,0 +1,17 @@
+.logo-outer {
+  min-height: 108px;
+  margin-top: 10px;
+}
+
+.form-outer {
+  min-height: 108px;
+}
+
+form {
+  margin-bottom: 0;
+  margin-top: 22px;
+}
+
+.welcome-container {
+  margin-left: 130px;
+}
